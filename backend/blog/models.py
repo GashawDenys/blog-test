@@ -10,6 +10,7 @@ class PublishedManager(models.Manager):
 
 
 class Post(models.Model):
+    """Model for Posts"""
     STATUS_CHOICES = (
         ('draft', 'Draft'),
         ('published', 'Published')
